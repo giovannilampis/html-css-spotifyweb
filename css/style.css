@@ -109,6 +109,24 @@ aside {
     padding-top: 7.5rem;;
 }
 
+.upgrade-btn {
+    background-color: var(--main-top);
+    color: var(--white);
+    border: 1px solid var(--white);
+    cursor: pointer;
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.upgrade-btn:hover {
+    padding: 1rem 3rem;
+}
+
 /* FOOTER */
 
 footer {
