@@ -178,3 +178,26 @@ footer {
     bottom: 0;
     z-index: 1999;
 }
+
+                    /* RESPONSIVE DESIGN */
+
+/* LANDSCAPE TABLETS */
+
+@media screen and (max-width: 991px) {
+    
+}
+
+/* PORTRAIT TABLETS AND LARGE PHONES */
+
+@media screen and (max-width: 767px) {
+    
+}
+
+/* SMALL DEVICES */
+
+@media screen and (max-width: 600px) {
+    
+}
+
+
+
