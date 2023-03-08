@@ -26,7 +26,8 @@
 
 :root {
     --aside: rgba(0, 0, 0, 1);
-    --dark-main: rgba(20, 25, 34, 1);
+    --main-top: rgba(8, 11, 18, 1);
+    --main-bottom: rgba(20, 25, 34, 1);
     --footer: rgba(40, 40, 40, 1);
     --grey-playlist: rgba(163, 163, 163, 1);
     --underline: rgba(173, 255, 47, 1);
@@ -64,18 +65,23 @@ aside {
 .main-content {
     width: calc(100% - 14.5rem);
     height: 100%;
-    background-color: var(--dark-main);
-    color: var(--grey-main);
 }
 
 .top-main-content {
     width: 100%;
     height: 6rem;
+    background-color: yellowgreen;
+    color: var(--grey-main);
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 
 .bottom-main-content {
     width: 100%;
     height: calc(100% - 6rem);
+    background-color: var(--main-bottom);
+    color: var(--white);
 }
 
 /* FOOTER */
