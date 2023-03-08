@@ -20,7 +20,8 @@
 
 :root {
     --aside: rgba(0, 0, 0, 1);
-    --dark: rgba(20, 25, 34, 1);
+    --head-main: rgba(20, 25, 34, 1);
+    --footer: rgba(40, 40, 40, 1);
     --grey-playlist: rgba(163, 163, 163, 1);
     --underline: rgba(173, 255, 47, 1);
     --white: rgba(255, 255, 255, 1);
@@ -44,3 +45,8 @@ body {
 /* MAIN */
 
 /* FOOTER */
+
+footer {
+    height: 6rem;
+    background-color: var(--footer);
+}
