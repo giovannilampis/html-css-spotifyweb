@@ -16,6 +16,23 @@
 
 /* GENERAL */
 
+/* colors */
+
+:root {
+    --aside: rgba(0, 0, 0, 1);
+    --dark: rgba(20, 25, 34, 1);
+    --grey-playlist: rgba(163, 163, 163, 1);
+    --underline: rgba(173, 255, 47, 1);
+    --white: rgba(255, 255, 255, 1);
+    --grey-main: rgba(125, 127, 132, 1);
+    --grey-aside: rgba(113, 113, 113, 1);
+    --home: rgba(210, 210, 210, 1);
+}
+
+body {
+    height: 100vh;
+}
+
 /* font family */
 
 body {
