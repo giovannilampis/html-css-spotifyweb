@@ -124,7 +124,7 @@ aside {
 }
 
 nav {
-    width: 55%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -147,8 +147,9 @@ nav {
     font-weight: bold;
 }
 
-.album-font {
+.album-title {
     color: var(--white);
+    font-size: 0.6rem;
     font-weight: bold;
 }
 
