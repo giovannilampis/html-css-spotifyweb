@@ -29,7 +29,7 @@
     --main-top: rgba(8, 11, 18, 1);
     --main-bottom: rgba(20, 25, 34, 1);
     --footer: rgba(40, 40, 40, 1);
-    --grey-playlist: rgba(163, 163, 163, 1);
+    --grey-nav-playlist: rgba(163, 163, 163, 1);
     --underline: rgba(173, 255, 47, 1);
     --white: rgba(255, 255, 255, 1);
     --grey-main: rgba(125, 127, 132, 1);
@@ -46,6 +46,28 @@ body {
 .wrapper {
     width: 100%;
     height: 100vh;
+}
+
+.nav-font {
+    color: var(--grey-main);
+    font-weight: bold;
+}
+
+.nav-small-font {
+    color: var(--grey-main);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.album-group-font {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.album-font {
+    color: var(--white);
+    font-weight: bold;
 }
 
 /* MAIN */
