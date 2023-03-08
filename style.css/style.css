@@ -1,0 +1,23 @@
+/* UTILITIES */
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* debug */
+
+.debug {
+    border: 1px solid turquoise;
+}
+
+/* GENERAL */
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
