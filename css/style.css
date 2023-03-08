@@ -65,6 +65,7 @@ aside {
 .main-content {
     width: calc(100% - 14.5rem);
     height: 100%;
+    overflow: hidden;
 }
 
 .top-main-content {
@@ -82,6 +83,7 @@ aside {
     height: calc(100% - 6rem);
     background-color: var(--main-bottom);
     color: var(--white);
+    overflow-y: scroll;
 }
 
 /* FOOTER */
@@ -93,5 +95,5 @@ footer {
     color: var(--white);
     position: fixed;
     bottom: 0;
-    z-index: 999;
+    z-index: 1999;
 }
