@@ -50,6 +50,13 @@ main {
     color: var(--grey-main);
 }
 
+aside {
+    width: 15rem;
+    height: 100%;
+    background-color: var(--aside);
+    color: var(--grey-main);
+}
+
 /* FOOTER */
 
 footer {
