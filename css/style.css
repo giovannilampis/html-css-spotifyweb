@@ -18,8 +18,13 @@
 
 /* flex classes */
 
+img {
+    width: 100%;
+}
+
 .flex {
     display: flex;
+    gap: 1rem;
 }
 
 .justify-between {
@@ -112,6 +117,10 @@ aside {
 
 .upgrade-btn:hover {
     padding: 1rem 3rem;
+}
+
+.album-card {
+    width: calc((100% - 5rem) / 6);
 }
 
 nav {
