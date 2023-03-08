@@ -24,7 +24,6 @@ img {
 
 .flex {
     display: flex;
-    gap: 1rem;
 }
 
 .justify-between {
@@ -37,6 +36,10 @@ img {
 
 .align-center {
     align-items: center;
+}
+
+.gap {
+    gap: 1rem;
 }
 
 /* colors */
