@@ -30,14 +30,15 @@
     --home: rgba(210, 210, 210, 1);
 }
 
-body {
-    height: 100vh;
-}
-
 /* font family */
 
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
 }
 
 /* HEADER */
@@ -49,4 +50,5 @@ body {
 footer {
     height: 6rem;
     background-color: var(--footer);
+    color: var(--white);
 }
