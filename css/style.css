@@ -11,7 +11,7 @@
 /* debug */
 
 .debug {
-    border: 1px solid turquoise;
+    border: 3px solid red;
 }
 
 /* GENERAL */
@@ -51,6 +51,10 @@ img {
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
 }
 
 .align-center {
@@ -132,7 +136,7 @@ aside img {
 }
 
 .top-main-content {
-    width: 100%;
+    width: calc(100% - 14.5rem);
     height: 6rem;
     background-color: var(--underline);
     color: var(--grey-main);
@@ -176,10 +180,11 @@ aside img {
     padding: 0.8rem 2.5rem;
     border-radius: 2rem;
     text-decoration: none;
-    position: absolute;
+    margin-right: 2rem;
+    /* position: absolute;
     top: 50%;
     right: 15%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     transition: all 0.25s ease;
 }
 
