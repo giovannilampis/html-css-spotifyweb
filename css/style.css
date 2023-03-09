@@ -135,6 +135,24 @@ nav {
     margin: 0 auto;
 }
 
+.scopri {
+    display: none;
+    color: var(--grey-main);
+    font-size: 0.6rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.generi-e-mood {
+    display: none;
+    color: var(--grey-main);
+    font-size: 0.6rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+}
+
 /* font classes */
 
 .nav-font ul {
@@ -184,18 +202,67 @@ footer {
 /* LANDSCAPE TABLETS */
 
 @media screen and (max-width: 991px) {
+
+    .album-card {
+        width: calc((100% - 3rem) / 4);
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .bottom-main-content ul li:last-child {
+        display: none;
+    }
+
+    .scopri {
+        display: inline-block;
+    }
     
 }
 
 /* PORTRAIT TABLETS AND LARGE PHONES */
 
 @media screen and (max-width: 767px) {
-    
+
+    .album-card {
+        width: calc((100% - 1rem) / 2);
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .bottom-main-content ul:first-child li:nth-child(4),
+    .bottom-main-content ul:first-child li:nth-child(5),
+    .bottom-main-content ul:first-child li:last-child {
+        display: none;
+    }
+
+    .scopri {
+        display: none;
+    }
+
+    .generi-e-mood {
+        display: flex;
+    }
+
 }
 
+
+/* HAS TO BE FIXED */
 /* SMALL DEVICES */
 
 @media screen and (max-width: 600px) {
+
+    .aside {
+        width: 2.5rem;
+    }
+
+    .main-content {
+    width: calc(100% - 2.5rem);
+        
+    }
     
 }
 
