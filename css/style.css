@@ -164,7 +164,6 @@ aside img {
 }
 
 
-
 .upgrade-btn {
     background-color: var(--main-top);
     font-size: 0.6rem;
@@ -187,30 +186,13 @@ aside img {
 
 .album-card {
     width: calc((100% - 5rem) / 6);
+    cursor: pointer;
 }
 
 nav {
     width: 60%;
     margin: 0 auto;
 }
-
-/* .scopri {
-    display: none;
-    color: var(--grey-main);
-    font-size: 0.6rem;
-    width: 100%;
-    text-align: center;
-    padding-top: 2rem;
-}
-
-.generi-e-mood {
-    display: none;
-    color: var(--grey-main);
-    font-size: 0.6rem;
-    width: 100%;
-    text-align: center;
-    padding-top: 2rem;
-} */
 
 /* font classes */
 
