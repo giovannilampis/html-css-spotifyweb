@@ -49,8 +49,16 @@ img {
     justify-content: flex-start;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .align-center {
     align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .gap {
@@ -92,6 +100,8 @@ aside {
 
 .aside-bottom {
     height: 6rem;
+    position: fixed;
+    bottom: 0;
 }
 
 .aside-top {
@@ -137,6 +147,24 @@ aside img {
     padding-top: 7.5rem;;
 }
 
+.bottom-main-content ul a {
+    text-decoration: none;
+    color: var(--white);
+    padding-right: 2rem;
+    display: inline-block;
+}
+
+.bottom-main-content ul a.underline-yellow::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 0.1rem;
+    background-color: var(--underline);
+    margin: 0.3rem auto;
+}
+
+
+
 .upgrade-btn {
     background-color: var(--main-top);
     font-size: 0.6rem;
@@ -166,7 +194,7 @@ nav {
     margin: 0 auto;
 }
 
-.scopri {
+/* .scopri {
     display: none;
     color: var(--grey-main);
     font-size: 0.6rem;
@@ -182,7 +210,7 @@ nav {
     width: 100%;
     text-align: center;
     padding-top: 2rem;
-}
+} */
 
 /* font classes */
 
@@ -235,91 +263,37 @@ footer {
 
                     /* RESPONSIVE DESIGN */
 
-/* LANDSCAPE TABLETS */
+/* BIG TABLETS */
 
 @media screen and (max-width: 991px) {
 
     .album-card {
         width: calc((100% - 3rem) / 4);
     }
-
-    .flex {
-        flex-wrap: wrap;
-    }
-
-    .bottom-main-content ul li:last-child {
-        display: none;
-    }
-
-    .scopri {
-        display: inline-block;
-    }
-    
 }
 
-/* LAPTOP */
+/* SMALL TABLETS */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 768px) {
 
     .album-card {
         width: calc((100% - 1rem) / 2);
     }
-
-    .flex {
-        flex-wrap: wrap;
-    }
-
-    .bottom-main-content ul:first-child li:nth-child(4),
-    .bottom-main-content ul:first-child li:nth-child(5),
-    .bottom-main-content ul:first-child li:last-child {
-        display: none;
-    }
-
-    .scopri {
-        display: none;
-    }
-
-    .generi-e-mood {
-        display: flex;
-    }
-
 }
 
-/* LAPTOPS */
-
-@media screen and (max-width: 1024px) {
-
-    aside {
-        width: 2.5rem;
-    }
-
-    .main-content {
-    width: calc(100% - 2.5rem);
-        
-    }
-    
-}
-
-/* TABLETS */
-
-@media screen and (max-width: 768px) {
-
-    aside {
-        width: 2.5rem;
-    }
-
-    .main-content {
-    width: calc(100% - 2.5rem);
-        
-    }
-    
-}
 
 /* SMARTPHONES */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 575px) {
 
-    
+    .main-content {
+        width: calc(100% - 2.5rem);
+            
+    }
+
+    aside {
+        width: 2.5rem;
+    }
 }
 
 
