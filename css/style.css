@@ -96,15 +96,18 @@ aside {
     height: 100%;
     background-color: var(--aside);
     color: var(--grey-aside);
+    position: relative;
 }
 
 .aside-bottom {
-    height: 6rem;
+    width: 14.5rem;
     position: fixed;
     bottom: 0;
+    position: absolute;
 }
 
 .aside-top {
+    width: 14.5rem;
     height: 100% - 6rem;
 }
 
@@ -273,7 +276,9 @@ footer {
             
     }
 
-    aside {
+    aside,
+    .aside-top,
+    .aside-bottom {
         width: 2.5rem;
     }
 }
