@@ -16,6 +16,21 @@
 
 /* GENERAL */
 
+/* colors */
+
+:root {
+    --aside: rgba(0, 0, 0, 1);
+    --main-top: rgba(8, 11, 18, 1);
+    --main-bottom: rgba(20, 25, 34, 1);
+    --footer: rgba(40, 40, 40, 1);
+    --grey-nav-playlist: rgba(163, 163, 163, 1);
+    --underline: rgba(173, 255, 47, 1);
+    --white: rgba(255, 255, 255, 1);
+    --grey-main: rgba(125, 127, 132, 1);
+    --grey-aside: rgba(113, 113, 113, 1);
+    --home: rgba(210, 210, 210, 1);
+}
+
 /* flex classes */
 
 img {
@@ -46,19 +61,8 @@ img {
     flex-direction: column;
 }
 
-/* colors */
-
-:root {
-    --aside: rgba(0, 0, 0, 1);
-    --main-top: rgba(8, 11, 18, 1);
-    --main-bottom: rgba(20, 25, 34, 1);
-    --footer: rgba(40, 40, 40, 1);
-    --grey-nav-playlist: rgba(163, 163, 163, 1);
-    --underline: rgba(173, 255, 47, 1);
-    --white: rgba(255, 255, 255, 1);
-    --grey-main: rgba(125, 127, 132, 1);
-    --grey-aside: rgba(113, 113, 113, 1);
-    --home: rgba(210, 210, 210, 1);
+.white-text {
+    color: var(--white);
 }
 
 /* font family */
@@ -92,7 +96,20 @@ aside {
 
 .aside-top {
     height: 100% - 6rem;
-    min-height: 28rem;
+}
+
+aside img {
+    width: 15%;
+}
+
+.add-playlist {
+    width: 2.5rem;
+    aspect-ratio: 1;
+    background-color: var(--grey-aside);
+    color: var(--main-top);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 .main-content {
@@ -240,9 +257,9 @@ footer {
     
 }
 
-/* PORTRAIT TABLETS AND LARGE PHONES */
+/* LAPTOP */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1100px) {
 
     .album-card {
         width: calc((100% - 1rem) / 2);
@@ -268,11 +285,9 @@ footer {
 
 }
 
+/* LAPTOPS */
 
-/* HAS TO BE FIXED */
-/* SMALL DEVICES */
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
 
     aside {
         width: 2.5rem;
@@ -284,6 +299,29 @@ footer {
     }
     
 }
+
+/* TABLETS */
+
+@media screen and (max-width: 768px) {
+
+    aside {
+        width: 2.5rem;
+    }
+
+    .main-content {
+    width: calc(100% - 2.5rem);
+        
+    }
+    
+}
+
+/* SMARTPHONES */
+
+@media screen and (max-width: 480px) {
+
+    
+}
+
 
 
 
