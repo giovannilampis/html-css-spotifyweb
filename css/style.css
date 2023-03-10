@@ -486,6 +486,18 @@ footer {
         padding: 0.5rem 0;
     }
 
+    #player-center-time span {
+        font-size: 0.7rem;
+    }
+
+    #player-center-time span:first-child {
+        padding-right: 1rem;
+    }
+
+    #player-center-time span:last-child {
+        padding-left: 1rem;
+    }
+
 }
 
 
