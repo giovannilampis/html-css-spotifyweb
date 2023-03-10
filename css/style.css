@@ -85,6 +85,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* a wrapper includes the whole web appº */
+
 .wrapper {
     width: 100%;
     height: 100vh;
@@ -198,7 +200,7 @@ h6.white-text {
 .aside-mobile-top {
     width: 2.5rem;
     height: 100% - 3rem;
-    padding: 0.5rem 0 0 0.5rem;
+    padding: 0.3rem 0 0 0.3rem;
 }
 
 .aside-mobile-bottom {
@@ -206,19 +208,17 @@ h6.white-text {
     position: fixed;
     bottom: 0;
     position: absolute;
-    padding: 0.5rem 0.5rem;
+    padding: 0.3rem 0.3rem;
 }
 
 .aside-mobile img {
     width: 80%;
-}
-
-.aside-mobile-top img {
-    padding-bottom: 0.5rem;
+    margin: 0 auto;
+    padding-bottom: 0.3rem;
 }
 
 .aside-mobile-bottom i {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
     color: var(--grey-aside);
     font-size: 0.8rem;
 }
@@ -335,6 +335,10 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: 1999;
+}
+
+#player-left {
+    height: 100%;
 }
 
                     /* RESPONSIVE DESIGN */
