@@ -338,7 +338,39 @@ footer {
 }
 
 #player-left {
+    width: 25%;
     height: 100%;
+}
+
+#player-center {
+    width: 50%;
+}
+
+#player-right {
+    width: 25%;
+}
+
+#player-center-controllers i {
+    margin: 0 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#player-center-time {
+    width: 80%;
+}
+
+#player-center-time .time-bg {
+    background-color: var(--main-bottom);
+    height: 0.3rem;
+    width: 80%;
+    border-radius: 0.6rem;
+}
+
+#player-center-time .time {
+    background-color: var(--grey-main);
+    height: 0.3rem;
+    width: 20%;
+    border-radius: 0.6rem;
 }
 
                     /* RESPONSIVE DESIGN */
