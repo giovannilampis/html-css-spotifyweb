@@ -186,6 +186,45 @@ h6.white-text {
     overflow: hidden;
 }
 
+.aside-mobile {
+    display: none;
+    width: 2.5rem;
+    height: 100%;
+    background-color: var(--aside);
+    color: var(--grey-aside);
+    position: relative;
+}
+
+.aside-mobile-top {
+    width: 2.5rem;
+    height: 100% - 3rem;
+    padding: 0.5rem 0 0 0.5rem;
+}
+
+.aside-mobile-bottom {
+    width: 2.5rem;
+    position: fixed;
+    bottom: 0;
+    position: absolute;
+    padding: 0.5rem 0.5rem;
+}
+
+.aside-mobile img {
+    width: 80%;
+}
+
+.aside-mobile-top img {
+    padding-bottom: 0.5rem;
+}
+
+.aside-mobile-bottom i {
+    margin-bottom: 0.5rem;
+    color: var(--grey-aside);
+    font-size: 0.8rem;
+}
+
+
+
 .top-main-content {
     width: calc(100% - 14.5rem);
     height: 6rem;
@@ -323,15 +362,28 @@ footer {
 
 @media screen and (max-width: 575px) {
 
-    .main-content {
+    /* .main-content {
         width: calc(100% - 2.5rem);
             
+    } */
+
+    main aside:first-child {
+        display: none;
+    }
+
+    main aside:last-child {
+        display: inline-block;
     }
 
     aside,
     .aside-top,
     .aside-bottom {
         width: 2.5rem;
+    }
+
+    .aside-mobile {
+        display: inline-block;
+        width: 2.5rem
     }
 }
 
