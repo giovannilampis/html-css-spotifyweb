@@ -471,6 +471,21 @@ footer {
         flex-direction: column;
         justify-content: flex-start;
     }
+
+    footer {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    #player-left-icons {
+        flex-direction: row;
+    }
+
+    #player-center-controllers i {
+        margin: 0 1.5rem;
+        padding: 0.5rem 0;
+    }
+
 }
 
 
