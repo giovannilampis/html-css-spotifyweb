@@ -99,6 +99,8 @@ main {
     height: calc(100vh - 6rem);
 }
 
+/* LEFT SIDE OF THE APP */
+
 aside {
     width: 14.5rem;
     height: 100%;
@@ -182,12 +184,6 @@ h6.white-text {
     text-align: center;
 }
 
-.main-content {
-    width: calc(100% - 14.5rem);
-    height: 100%;
-    overflow: hidden;
-}
-
 .aside-mobile {
     display: none;
     width: 2.5rem;
@@ -223,12 +219,19 @@ h6.white-text {
     font-size: 0.8rem;
 }
 
+/* MAIN PART OF THE APP */
 
+.main-content {
+    background-color: var(--main-bottom);
+    width: calc(100% - 14.5rem);
+    height: 100%;
+    overflow: hidden;
+}
 
 .top-main-content {
     width: calc(100% - 14.5rem);
     height: 6rem;
-    background-color: var(--underline);
+    background-color: rgba(0, 0, 0, 0.5);
     color: var(--grey-main);
     position: fixed;
     top: 0;
@@ -238,7 +241,6 @@ h6.white-text {
 .bottom-main-content {
     width: 100%;
     height: calc(100vh - 6rem);
-    background-color: var(--main-bottom);
     color: var(--white);
     overflow-y: auto;
     padding-top: 7.5rem;;
@@ -359,19 +361,26 @@ footer {
     width: 80%;
 }
 
-#player-center-time .time-bg {
+#player-center-time .time-bg,
+#player-right .time-bg {
     background-color: var(--main-bottom);
     height: 0.3rem;
     width: 80%;
     border-radius: 0.6rem;
 }
 
-#player-center-time .time {
+#player-center-time .time,
+#player-right .time {
     background-color: var(--grey-main);
     height: 0.3rem;
     width: 20%;
     border-radius: 0.6rem;
 }
+
+#player-right i {
+    padding-right: 0.8rem;
+}
+
 
                     /* RESPONSIVE DESIGN */
 
