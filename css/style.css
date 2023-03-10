@@ -442,35 +442,29 @@ footer {
 
 @media screen and (max-width: 575px) {
 
+    /* the big default aside area disappears ... */
     main aside:first-child {
         display: none;
     }
 
-    main aside:last-child {
+    /* ...while a new thin one takes its place */
+    .aside-mobile {
         display: inline-block;
     }
 
+    /* because of this there are several elements that must change their width */
     .main-content,
     .top-main-content,
     .bottom-main-content {
         width: calc(100% - 2.5rem);
     }
 
-    aside,
-    .aside-top,
-    .aside-bottom {
-        width: 2.5rem;
-    }
-
-    .aside-mobile {
-        display: inline-block;
-        width: 2.5rem
-    }
-
     #player-left-text .flex {
         flex-direction: column;
         justify-content: flex-start;
     }
+
+    /* playbar smartphone (max-width: 575px) */
 
     footer {
         flex-direction: column;
@@ -496,6 +490,21 @@ footer {
 
     #player-center-time span:last-child {
         padding-left: 1rem;
+    }
+
+    .profile {
+        background-color: var(--grey-aside);
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    
+    .profile img {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        margin: 0 auto;
     }
 
 }
