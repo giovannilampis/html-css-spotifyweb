@@ -349,14 +349,25 @@ footer {
 /* player left */
 
 #player-left {
-    width: 25%;
+    width: 14.5rem;
     height: 100%;
-    padding-left: 0.7rem;
+    padding-left: 0.4rem;
 }
 
 #player-left img {
     width: 3.5rem;
-    padding-right: 0.7rem;
+    padding-right: 1.2rem;
+}
+
+#player-left-text {
+    width: 55%;
+}
+
+#player-left-icons i {
+    color: var(--grey-main);
+    font-size: 0.8rem;
+    padding-left: 0.8rem;
+    width: 25%;
 }
 
 /* player center */
@@ -419,6 +430,11 @@ footer {
     .album-card {
         width: calc((100% - 1rem) / 2);
     }
+
+    #player-left-icons {
+        flex-direction: column;
+    }
+
 }
 
 
@@ -426,17 +442,18 @@ footer {
 
 @media screen and (max-width: 575px) {
 
-    /* .main-content {
-        width: calc(100% - 2.5rem);
-            
-    } */
-
     main aside:first-child {
         display: none;
     }
 
     main aside:last-child {
         display: inline-block;
+    }
+
+    .main-content,
+    .top-main-content,
+    .bottom-main-content {
+        width: calc(100% - 2.5rem);
     }
 
     aside,
@@ -448,6 +465,11 @@ footer {
     .aside-mobile {
         display: inline-block;
         width: 2.5rem
+    }
+
+    #player-left-text .flex {
+        flex-direction: column;
+        justify-content: flex-start;
     }
 }
 
