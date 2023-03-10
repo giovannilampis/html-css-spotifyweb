@@ -334,7 +334,7 @@ nav {
     padding-top: 0.5rem;
 }
 
-/* FOOTER */
+/* FOOTER (PLAYER) */
 
 footer {
     width: 100%;
@@ -346,17 +346,23 @@ footer {
     z-index: 1999;
 }
 
+/* player left */
+
 #player-left {
     width: 25%;
     height: 100%;
+    padding-left: 0.7rem;
 }
+
+#player-left img {
+    width: 3.5rem;
+    padding-right: 0.7rem;
+}
+
+/* player center */
 
 #player-center {
     width: 50%;
-}
-
-#player-right {
-    width: 25%;
 }
 
 #player-center-controllers i {
@@ -382,6 +388,12 @@ footer {
     height: 0.3rem;
     width: 20%;
     border-radius: 0.6rem;
+}
+
+/* player right */
+
+#player-right {
+    width: 25%;
 }
 
 #player-right i {
