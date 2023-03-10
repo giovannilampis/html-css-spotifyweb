@@ -85,6 +85,32 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* font classes */
+
+.nav-font ul {
+    color: var(--grey-main);
+    font-size: 0.6rem;
+    list-style-type: none;
+}
+
+.nav-small-font {
+    color: var(--grey-main);
+    font-size: 0.7rem;
+}
+
+.albums-section-font {
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 0.8rem;
+}
+
+.album-title {
+    color: var(--white);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
 /* a wrapper includes the whole web appº */
 
 .wrapper {
@@ -228,6 +254,8 @@ h6.white-text {
     overflow: hidden;
 }
 
+/* call to action with button shaped a section */
+
 .top-main-content {
     width: calc(100% - 14.5rem);
     height: 6rem;
@@ -237,6 +265,24 @@ h6.white-text {
     top: 0;
     z-index: 999;
 }
+.upgrade-btn {
+    background-color: var(--main-top);
+    font-size: 0.6rem;
+    color: var(--white);
+    border: 1px solid var(--white);
+    cursor: pointer;
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    margin-right: 0.8rem;
+    transition: all 0.25s ease;
+}
+
+.upgrade-btn:hover {
+    transform: scale(1.1);
+}
+
+/* main part of the main section */
 
 .bottom-main-content {
     width: 100%;
@@ -244,6 +290,13 @@ h6.white-text {
     color: var(--white);
     overflow-y: auto;
     padding-top: 7.5rem;;
+}
+
+/* nav section & relative anchors */
+
+nav {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .bottom-main-content ul a {
@@ -262,59 +315,7 @@ h6.white-text {
     margin: 0.3rem auto;
 }
 
-
-.upgrade-btn {
-    background-color: var(--main-top);
-    font-size: 0.6rem;
-    color: var(--white);
-    border: 1px solid var(--white);
-    cursor: pointer;
-    padding: 0.8rem 2.5rem;
-    border-radius: 2rem;
-    text-decoration: none;
-    margin-right: 0.8rem;
-    transition: all 0.25s ease;
-}
-
-.upgrade-btn:hover {
-    transform: scale(1.1);
-}
-
-.album-card {
-    width: calc((100% - 5rem) / 6);
-    cursor: pointer;
-}
-
-nav {
-    width: 60%;
-    margin: 0 auto;
-}
-
-/* font classes */
-
-.nav-font ul {
-    color: var(--grey-main);
-    font-size: 0.6rem;
-    list-style-type: none;
-}
-
-.nav-small-font {
-    color: var(--grey-main);
-    font-size: 0.7rem;
-}
-
-.albums-section-font {
-    color: var(--white);
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding-bottom: 0.8rem;
-}
-
-.album-title {
-    color: var(--white);
-    font-size: 0.8rem;
-    font-weight: bold;
-}
+/* GROUPS OF ALBUMS in the main sention of the app */
 
 #recent,
 #john-doe,
@@ -322,10 +323,16 @@ nav {
     padding: 1.5rem 1rem;
 }
 
+/* ALBUM CARD */
+
+.album-card {
+    width: calc((100% - 5rem) / 6);
+    cursor: pointer;
+}
+
 .album-card h4 {
     padding-top: 0.5rem;
 }
-
 
 /* FOOTER */
 
