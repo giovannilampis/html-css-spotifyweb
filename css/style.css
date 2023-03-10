@@ -454,8 +454,7 @@ footer {
 
     /* because of this there are several elements that must change their width */
     .main-content,
-    .top-main-content,
-    .bottom-main-content {
+    .top-main-content {
         width: calc(100% - 2.5rem);
     }
 
@@ -505,6 +504,18 @@ footer {
         height: 1.5rem;
         border-radius: 50%;
         margin: 0 auto;
+    }
+
+    .aside-mobile-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aside-mobile-bottom a i {
+        font-size: 1rem;
+        margin: 0 auto;
+        color: var(--white);
     }
 
 }
