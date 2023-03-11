@@ -379,11 +379,16 @@ nav {
     padding-top: 0.5rem;
 }
 
+#john-doe .album-card img {
+    padding-top: 0.5rem;
+}
+
 #popular .album-card img {
     object-fit: cover;
     display: inline-block;
     border-radius: 50%;
     aspect-ratio: 1;
+    padding-top: 0.5rem;
 }
 
 /* PLAYER */
