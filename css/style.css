@@ -90,7 +90,6 @@ body {
 .nav-font ul {
     color: var(--grey-main);
     font-size: 0.6rem;
-    list-style-type: none;
 }
 
 .nav-small-font {
@@ -326,11 +325,23 @@ nav {
     margin: 0 auto;
 }
 
+.bottom-main-content ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 0.6rem;
+}
+
+.bottom-main-content ul li:first-child {
+    margin-left: 0;
+}
+
+.bottom-main-content ul li:last-child {
+    margin-right: 0;
+}
+
 .bottom-main-content ul a {
     text-decoration: none;
     color: var(--white);
-    padding-right: 2rem;
-    display: inline-block;
 }
 
 .bottom-main-content ul a.underline-lime::after {
