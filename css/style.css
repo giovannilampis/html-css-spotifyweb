@@ -382,6 +382,10 @@ footer {
     width: 25%;
 }
 
+#player-left-text span:hover {
+    text-decoration: underline;
+}
+
 /* player center */
 
 #player-center {
