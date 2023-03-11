@@ -277,6 +277,9 @@ h6.white-text {
     top: 0;
     z-index: 999;
 }
+
+/* call to action button */
+
 .upgrade-btn {
     background-color: var(--main-top);
     font-size: 0.6rem;
@@ -290,7 +293,9 @@ h6.white-text {
     transition: all 0.25s ease;
 }
 
-.upgrade-btn:hover {
+/* cta button and player center controllers buttons get bigger on :hover */
+.upgrade-btn:hover,
+#player-center-controllers i:hover {
     transform: scale(1.1);
 }
 
@@ -397,6 +402,7 @@ footer {
 #player-center-controllers i {
     margin: 0 1.5rem;
     padding-bottom: 1.5rem;
+    transition: all 0.25s ease;
 }
 
 #player-center-time {
@@ -418,6 +424,8 @@ footer {
     width: 20%;
     border-radius: 0.6rem;
 }
+
+/* expired time bars turn color lime on :hover */
 
 #player-center-time .time:hover,
 #player-right .time:hover {
