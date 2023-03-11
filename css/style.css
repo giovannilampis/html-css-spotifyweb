@@ -181,6 +181,7 @@ h6.white-text {
     color: var(--main-top);
     font-size:1.8rem;
     text-align: center;
+    margin-right: 0.4rem;
 }
 
 /* lower part of the left side section of the web app */
