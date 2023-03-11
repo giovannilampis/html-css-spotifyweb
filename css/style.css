@@ -147,11 +147,44 @@ aside {
     position: relative;
 }
 
+aside img {
+    width: 8%;
+}
+
+/* upper part of the left side section of the web app */
+
 .aside-top {
     width: 14.5rem;
     height: 100% - 6rem;
     padding: 0.5rem 0 0 0.5rem;
 }
+
+#logo {
+    width: 40%;
+    padding-bottom: 0.4rem;
+}
+
+.aside-top div.flex {
+    padding-bottom: 0.3rem;
+}
+
+h6.white-text {
+    padding-bottom: 0.3rem;
+}
+
+/* add playlist element, on the upper part of the left side section */
+
+.add-playlist {
+    width: 1.3rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    background-color: var(--grey-aside);
+    color: var(--main-top);
+    font-size:1.8rem;
+    text-align: center;
+}
+
+/* lower part of the left side section of the web app */
 
 .aside-bottom {
     width: 14.5rem;
@@ -182,6 +215,8 @@ aside {
     font-size: 0.6rem;
 }
 
+/* profile image in .aside-bottom */
+
 .profile {
     background-color: var(--grey-aside);
     width: 1rem;
@@ -195,32 +230,7 @@ aside {
     border-radius: 50%;
 }
 
-aside img {
-    width: 8%;
-}
-
-#logo {
-    width: 40%;
-    padding-bottom: 0.4rem;
-}
-
-.aside-top div.flex {
-    padding-bottom: 0.3rem;
-}
-
-h6.white-text {
-    padding-bottom: 0.3rem;
-}
-
-.add-playlist {
-    width: 1.5rem;
-    height: 1.5rem;
-    line-height: 1.5rem;
-    background-color: var(--grey-aside);
-    color: var(--main-top);
-    font-size: 2rem;
-    text-align: center;
-}
+/* aside thin left bar, appears only on mobile phone layout (max-width: 575px) */
 
 .aside-mobile {
     display: none;
@@ -229,6 +239,12 @@ h6.white-text {
     background-color: var(--aside);
     color: var(--grey-aside);
     position: relative;
+}
+
+.aside-mobile img {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 0.3rem;
 }
 
 .aside-mobile-top {
@@ -243,12 +259,6 @@ h6.white-text {
     bottom: 0;
     position: absolute;
     padding: 0.3rem 0.3rem;
-}
-
-.aside-mobile img {
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 0.3rem;
 }
 
 .aside-mobile-bottom i {
