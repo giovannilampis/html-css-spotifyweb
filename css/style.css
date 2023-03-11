@@ -330,6 +330,8 @@ nav {
     display: inline-block;
     list-style-type: none;
     margin: 0 0.6rem;
+    margin-bottom: 0.5rem;
+    position: relative;
 }
 
 .bottom-main-content ul li:first-child {
@@ -345,14 +347,27 @@ nav {
     color: var(--white);
 }
 
-.bottom-main-content ul a.underline-lime::after {
+/* .bottom-main-content ul a.underline-lime::after {
     content: "";
     display: block;
     width: 50%;
     height: 0.1rem;
     background-color: var(--lime);
     margin: 0.3rem auto;
+} */
+
+.bottom-main-content ul li:hover a::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 0.1rem;
+    width: 50%;
+    background-color: var(--lime);
+    bottom: -0.15rem;
+    left: 50%;
+    transform: translate(-50%);
 }
+
 
 /* GROUPS OF ALBUMS in the main sention of the app */
 
