@@ -391,6 +391,23 @@ nav {
     padding-top: 0.5rem;
 }
 
+.img-container {
+    position: relative;
+}
+
+.album-card .img-container i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    display: none;
+}
+
+.album-card:hover .img-container i {
+    display: inline-block;
+}
+
 /* PLAYER */
 
 .player {
