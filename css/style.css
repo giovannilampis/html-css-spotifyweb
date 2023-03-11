@@ -529,6 +529,10 @@ nav {
         padding-top: 2rem;
     }
 
+    #player-left-text h4 {
+        width: 100%;
+    }
+
     #player-left-icons {
         flex-direction: row;
     }
@@ -551,7 +555,11 @@ nav {
     }
 
     #player-center-time {
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    #player-right {
+        display: none;
     }
 
     .profile {
