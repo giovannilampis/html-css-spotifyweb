@@ -22,7 +22,7 @@
     --aside: rgba(0, 0, 0, 1);
     --main-top: rgba(8, 11, 18, 1);
     --main-bottom: rgba(20, 25, 34, 1);
-    --footer: rgba(40, 40, 40, 1);
+    --player: rgba(40, 40, 40, 1);
     --grey-nav-playlist: rgba(163, 163, 163, 1);
     --lime: rgba(173, 255, 47, 1);
     --white: rgba(255, 255, 255, 1);
@@ -351,12 +351,12 @@ nav {
     padding-top: 0.5rem;
 }
 
-/* FOOTER (PLAYER) */
+/* PLAYER */
 
 .player {
     width: 100%;
     height: 6rem;
-    background-color: var(--footer);
+    background-color: var(--player);
     color: var(--white);
     position: fixed;
     bottom: 0;
@@ -522,6 +522,10 @@ nav {
         padding-left: 1rem;
     }
 
+    #player-center-time {
+        padding-bottom: 1rem;
+    }
+
     .profile {
         background-color: var(--grey-aside);
         width: 1.5rem;
@@ -556,6 +560,7 @@ nav {
     .aside-mobile-bottom {
         display: none;
     }
+
 }
 
 
