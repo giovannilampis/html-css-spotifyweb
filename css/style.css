@@ -24,7 +24,7 @@
     --main-bottom: rgba(20, 25, 34, 1);
     --footer: rgba(40, 40, 40, 1);
     --grey-nav-playlist: rgba(163, 163, 163, 1);
-    --underline: rgba(173, 255, 47, 1);
+    --lime: rgba(173, 255, 47, 1);
     --white: rgba(255, 255, 255, 1);
     --grey-main: rgba(125, 127, 132, 1);
     --grey-aside: rgba(113, 113, 113, 1);
@@ -318,12 +318,12 @@ nav {
     display: inline-block;
 }
 
-.bottom-main-content ul a.underline-yellow::after {
+.bottom-main-content ul a.underline-lime::after {
     content: "";
     display: block;
     width: 50%;
     height: 0.1rem;
-    background-color: var(--underline);
+    background-color: var(--lime);
     margin: 0.3rem auto;
 }
 
@@ -382,6 +382,8 @@ footer {
     width: 25%;
 }
 
+/* title track turns underlined on:hover */
+
 #player-left-text span:hover {
     text-decoration: underline;
 }
@@ -416,6 +418,11 @@ footer {
     width: 20%;
     border-radius: 0.6rem;
 }
+
+#player-center-time .time:hover,
+#player-right .time:hover {
+    background-color: var(--lime);
+} 
 
 /* player right */
 
