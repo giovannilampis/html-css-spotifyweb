@@ -1,4 +1,4 @@
-/* UTILITIES */
+                /* UTILITIES */
 
 /* reset */
 
@@ -14,7 +14,7 @@
     border: 3px solid red;
 }
 
-/* GENERAL */
+                /* GENERAL */
 
 /* colors */
 
@@ -109,6 +109,18 @@ body {
     color: var(--white);
     font-size: 0.8rem;
     font-weight: bold;
+}
+
+.bottom-main-content ul li a {
+    color: var(--grey-main);
+}
+
+/* bonus effect: text / image turns white on :hover */
+
+.bottom-main-content ul li a:hover,
+aside *:hover,
+#player-left *:hover {
+    color: var(--white);
 }
 
 /* a wrapper includes the whole web appº */
